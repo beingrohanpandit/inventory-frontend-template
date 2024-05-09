@@ -1,0 +1,187 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-div {
+    padding: 25% 0% 0% 45%;
+    display: inline-block;
+}
+
+.right-div {
+    padding: 10% 45% 10% 0%;
+    display: inline-block;
+}
+
+#logo-text {
+    padding: 0px 0 0 70px;
+}
+
+.font {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-2B2F38 {
+    color: #2b2f38;
+}
+
+.font-48505E {
+    color: #48505e;
+    font-weight: 600;
+}
+
+.font-667085 {
+    color: #667085;
+}
+
+.btn-round {
+    padding: 15px 25%;
+    font-weight: 600;
+    width: 100%;
+    background-color: #1366d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inner-right-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 96%;
+    padding: 15px 2%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dis-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marg-btm-20 {
+    margin-bottom: 20px;
+}
+
+.clr-1366D9 {
+    color: #1366D9;
+}
+.clr-009ED8{
+    color: #009ED8;
+}
+
+.marg-0 {
+    margin: 0;
+}
+
+.dis-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.font-wg-500 {
+    font-weight: 500;
+}
+
+.font-wg-600 {
+    font-weight: 600;
+}
+
+.marg-btm-6 {
+    margin-bottom: 6px;
+}
+
+#small-logo {
+    width: 15%;
+    height: 15%;
+    padding: 0% 0% 2% 40%;
+}
+
+@media only screen and (max-width: 1240px) {
+    .left-div {
+        padding: 45% 0% 0% 20%;
+        display: inline-block;
+    }
+
+    .right-div {
+        padding: 10% 20% 10% 0%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+    .main-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-div {
+        display: none;
+    }
+
+    .right-div {
+        padding: 10% 20% 10% 20%;
+    }
+}
+@media only screen and (max-width: 642px) {
+    .main-div {
+        margin-top: 25%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-div {
+        display: none;
+    }
+
+    .right-div {
+        padding: 10% 20% 10% 20%;
+    }
+    .btn-round {
+        padding: 10px 20%;
+        font-weight: 600;
+        width: 100%;
+        background-color: #1366d9;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 10px;
+
+    }
+    .input-group {
+        width: 96%;
+        padding: 10px 2%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .h1{
+        font-size: 10px;
+    }
+    .font-size-13 {
+        font-size: 10px;
+    }
+    .font-size-16{
+        font-size: 16px;
+    }
+    .dis-flex{
+        display: block;
+
+    }
+}
