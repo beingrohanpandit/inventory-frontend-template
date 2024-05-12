@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Font Family */
+
+.font {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Display Flex */
+
+.dis-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.dis-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Color */
+
+.clr-1366D9 {
+    color: #1366D9;
+}
+.clr-009ED8{
+    color: #009ED8;
+}
+.color-2B2F38 {
+    color: #2b2f38;
+}
+.color-48505E {
+    color: #48505e;
+}
+.color-667085 {
+    color: #667085;
+}
+
+
+/* Link Decoration */
+
+.link {
+    text-decoration: none;
+}
+
+
+/* Font Weight */
+
+.font-wg-500 {
+    font-weight: 500;
+}
+
+.font-wg-600 {
+    font-weight: 600;
+}
